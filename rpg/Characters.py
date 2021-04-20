@@ -1,5 +1,5 @@
 from random  import randint
-from Team import *
+from team import *
 
 printActionDescription = True
 
@@ -76,7 +76,7 @@ class Mage(Character):
         else:
             self.cast(myTeam, enemy)
 
-#############################  new chars  #############################
+
 #################  ArchMage  #################
 class ArchMage(Mage):
     def __init__(self):
@@ -84,7 +84,6 @@ class ArchMage(Mage):
         self.name = 'ArchMage'
         self.cost = 600
 
-    # kaboom
     def kaboom(self, myTeam, enemy):
         if self.mana < manaCost:
             self.mana += manaRecovery

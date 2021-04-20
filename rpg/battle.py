@@ -1,6 +1,6 @@
-from Characters import *
+from characters import *
 from random import randint
-from Team import *
+from team import *
 
 
 # You increase nCharType one at a time
@@ -109,7 +109,7 @@ def runBattle(teamA,teamB, pause = True):
             input("Press Enter to continue....")
 
     if allDead(teamB):
-        dprint("Frist team won!")
+        dprint("First team won!")
         return 0
     else:
         dprint("Second team won!")

@@ -13,8 +13,6 @@ When the battle starts, each team will take turns to act. However, one character
 
 Upon receiving the action, the targeted random alive enemy (E1) will 'get hurt' and its HP will drop. When an enemy's HP drops to 0, it will be dead and no longer acts. It can only be revived by a necromancer.
 
-A text file named "sample gameply.txt" will be generated to store the logs of the battle.
-
 
 # Characters
 There will be 5 different classes in this game. Characters can be found in the Characters.py file.

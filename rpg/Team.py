@@ -1,5 +1,5 @@
 from random import randint
-from Characters import *
+from characters import *
 
 def randAlive(team): # return a random member in the team that is alive
     #But we assume that someone must be alive in the team
